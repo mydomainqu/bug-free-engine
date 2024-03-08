@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: red;
+    height: 100vh;
+    background-image: url("bacground.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .profile>img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #e4e4e4;
+    border-radius: 100%;
+  }
+  
+  .profile>p {
+    font-size: 1.2em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .profile>b {
+    font-size: 1em;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+  .link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .link>a {
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid #222;
+    background-color: #eaeaea;
+    border-radius: 7px;
+    margin: 6px 12px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: ;
+  }
+  
+  .link>a:hover {
+    background-color: azure;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .footer>i {
+    color: white;
+    font-size: 20px;
+  }
